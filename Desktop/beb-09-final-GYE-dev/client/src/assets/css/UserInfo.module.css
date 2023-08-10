@@ -1,0 +1,31 @@
+.walletAddress {
+    position: relative;
+    top: 20px;
+    left: 300px;
+    display: flex;
+    height: 150px;
+  }
+  
+  @media (max-width: 1799px) {
+    .walletAddress {
+      top: 20px;
+      left: 378px;
+      height: 160px;
+    }
+  }
+  
+  @media (max-width: 999px) {
+    .walletAddress {
+      top: 20px;
+      left: 305px;
+      height: 160px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .walletAddress {
+      top: 30px;
+      left: 260px;
+      height: 165px;
+    }
+  }
